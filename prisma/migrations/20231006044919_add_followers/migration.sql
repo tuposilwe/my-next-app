@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `user` ADD COLUMN `followers` INTEGER NOT NULL DEFAULT 0;
