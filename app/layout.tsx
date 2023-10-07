@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="winter">
       <GoogleAnalyticsScript />
-      <body className={roboto.className}>
+      <body className={inter.className}>
         <AuthProvider>
         <NavBar/>
           <main className='p-5'> 
